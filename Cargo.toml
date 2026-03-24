@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1"
+clap = { version = "4.6.0", features = ["derive"] }
+log = "0.4"
+otaripper = { git = "https://github.com/playground0230/otaripper", rev = "9eae69ef880595810e97ad06a434f07202d8d169" }
+pretty_env_logger = "0.5"
+sha1 = "0.10"
+tempfile = "3.27.0"
